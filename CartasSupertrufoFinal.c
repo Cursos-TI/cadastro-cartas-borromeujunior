@@ -29,3 +29,16 @@ printf("Digite o PIB da cidade: \n");
 scanf("%f", &pib1);
 printf("Digite o numero de pontos turísticos da cidade: \n");
 scanf("%d", &pontos1);
+
+printf("\n");
+
+// Área destinada a exibição dos dados da carta 1
+printf("\n");
+
+printf("Letra do estado: %c\n", letraEstado1);
+printf("Código da carta: %c\n", codigoCarta1);
+printf("Nome da cidade: %c\n", nomeCidade1);
+printf("População da cidade: %d\n", populacao1);
+printf("Área total da cidade: %f\f", area1);
+printf("PIB da cidade: %f\n", pib1);
+printf("Número de pontos turísticos: %d\n", pontos1);
