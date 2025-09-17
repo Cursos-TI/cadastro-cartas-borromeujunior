@@ -16,7 +16,7 @@ printf("Cadastre os dados da Carta 1:\n");
 
 printf("\n");
 
-printf("Digite a letra do estado: (A-H)");
+printf("Digite a letra do estado(A-H): \n");
 scanf("%c", &letraEstado1);
 printf("Digite o código para a Carta (ex: A01,B03): \n");
 scanf("%s", codigoCarta1);
@@ -43,6 +43,42 @@ printf("População da cidade: %d\n", populacao1);
 printf("Área total da cidade: %f\f", area1);
 printf("PIB da cidade: %f\n", pib1);
 printf("Número de pontos turísticos: %d\n", pontos1);
+
+printf("\n"); 
+// Área para entrada de dados da carta 2
+
+printf("Cadastre os dados da Carta 2:\n");
+
+printf("\n");
+
+printf("Digite a letra do estado(A-H): \n");
+scanf("%s", &letraEstado2);
+printf("Digite o código para a Carta (ex: A01,B03): \n");
+scanf("%s", codigoCarta2);
+printf("Digite o nome da cidade: \n");
+scanf("%s", nomeCidade2);
+printf("Digite a população da cidade: \n");
+scanf("%d", &populacao2);
+printf("Digite a área total da cidade: \n");
+scanf("%f", &area2);
+printf("Digite o PIB da cidade: \n");
+scanf("%f", &pib2);
+printf("Digite o numero de pontos turísticos da cidade: \n");
+scanf("%d", &pontos2);
+
+printf("\n");
+
+// Área destinada a exibição dos dados da carta 2
+printf("\n");
+
+printf("Letra do estado: %c\n", letraEstado2);
+printf("Código da carta: %s\n", codigoCarta2);
+printf("Nome da cidade: %s\n", nomeCidade2);
+printf("População da cidade: %d\n", populacao2);
+printf("Área total da cidade: %f\f", area2);
+printf("PIB da cidade: %f\n", pib2);
+printf("Número de pontos turísticos: %d\n", pontos2);
+
 
 return 0;
 }
