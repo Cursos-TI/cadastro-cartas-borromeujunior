@@ -35,12 +35,12 @@ printf("\n");
 
 // Área destinada a exibição dos dados da carta 1
 printf("\n");
-
+printf("Dados inseridos da carta 1: \n");
 printf("Letra do estado: %c\n", letraEstado1);
 printf("Código da carta: %s\n", codigoCarta1);
 printf("Nome da cidade: %s\n", nomeCidade1);
 printf("População da cidade: %d\n", populacao1);
-printf("Área total da cidade: %f\f", area1);
+printf("Área total da cidade: %f\n", area1);
 printf("PIB da cidade: %f\n", pib1);
 printf("Número de pontos turísticos: %d\n", pontos1);
 
@@ -70,12 +70,12 @@ printf("\n");
 
 // Área destinada a exibição dos dados da carta 2
 printf("\n");
-
+printf("Dados inseridos da carta 2: \n");
 printf("Letra do estado: %c\n", letraEstado2);
 printf("Código da carta: %s\n", codigoCarta2);
 printf("Nome da cidade: %s\n", nomeCidade2);
 printf("População da cidade: %d\n", populacao2);
-printf("Área total da cidade: %f\f", area2);
+printf("Área total da cidade: %f\n", area2);
 printf("PIB da cidade: %f\n", pib2);
 printf("Número de pontos turísticos: %d\n", pontos2);
 
