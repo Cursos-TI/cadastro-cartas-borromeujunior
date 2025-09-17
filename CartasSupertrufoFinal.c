@@ -42,3 +42,6 @@ printf("População da cidade: %d\n", populacao1);
 printf("Área total da cidade: %f\f", area1);
 printf("PIB da cidade: %f\n", pib1);
 printf("Número de pontos turísticos: %d\n", pontos1);
+
+return 0;
+}
