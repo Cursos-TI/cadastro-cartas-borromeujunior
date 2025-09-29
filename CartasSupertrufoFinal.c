@@ -8,7 +8,7 @@
 int main() {
     char nomeCidade1[50], nomeCidade2[50], letraEstado1, letraEstado2, codigoCarta1[4], codigoCarta2[4];
     int populacao1, populacao2, pontos1, pontos2;
-    float area1, area2, pib1, pib2;
+    float area1, area2, pib1, pib2, densidade1, densidade2, pibpercapta1, pibpercapta2;
 
     // Área para entrada de dados da carta 1
 
