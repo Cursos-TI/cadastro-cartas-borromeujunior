@@ -55,6 +55,7 @@ printf("PIB per Capta: %.2f Reais\n", pibpercapta1);
 printf("Superpoder da carta: %.2f\n", superpoder1);
 
 printf("\n"); 
+
 // Área para entrada de dados da carta 2
 
 printf("Cadastre os dados da Carta 2:\n");
