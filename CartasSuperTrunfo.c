@@ -20,7 +20,7 @@ printf("Digite o código para a Carta (ex: A01,B03): \n");
 scanf("%s", codigoCarta1);
 
 printf("Digite o nome da cidade: \n");
-scanf("%s", &nomeCidade1);
+scanf("%s", nomeCidade1);
 
 printf("Digite a população da cidade: \n");
 scanf("%d", &populacao1);

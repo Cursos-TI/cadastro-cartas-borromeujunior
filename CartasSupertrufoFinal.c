@@ -8,8 +8,9 @@
 int main() {
     char nomeCidade1[50], nomeCidade2[50], letraEstado1, letraEstado2, codigoCarta1[4], codigoCarta2[4];
     int pontos1, pontos2;
-    float area1, area2, pib1, pib2, densidade1, densidade2, pibpercapta1, pibpercapta2;
+    float area1, area2, pib1, pib2, densidade1, densidade2, pibpercapta1, pibpercapta2, superpoder1, superpoder2;
     unsigned long int populacao1, populacao2;
+   
 
     // Área para entrada de dados da carta 1
 
@@ -36,6 +37,8 @@ printf("\n");
 
 densidade1 = populacao1 / area1; // Calculo da densidade populacional
 pibpercapta1 = pib1 / populacao1; // Calculo do PIB per capta
+superpoder1 = area1 + pib1 + (float)populacao1 + (float)pontos1 + (float)(1 / densidade1); // Cálculo do superpoder da carta 1
+
 
 // Área destinada a exibição dos dados da carta 1
 printf("\n");
@@ -44,11 +47,12 @@ printf("Letra do estado: %c\n", letraEstado1);
 printf("Código da carta: %s\n", codigoCarta1);
 printf("Nome da cidade: %s\n", nomeCidade1);
 printf("População da cidade: %lu\n", populacao1);
-printf("Área total da cidade: %.2f km2\n", area1);
-printf("PIB da cidade: %.2f Bilhões de Reais\n", pib1);
+printf("Área total da cidade: %f km2\n", area1);
+printf("PIB da cidade: %f Reais\n", pib1);
 printf("Número de pontos turísticos: %d\n", pontos1);
 printf("Densidade Populacional: %.2f hab/km2\n", densidade1);
 printf("PIB per Capta: %.2f Reais\n", pibpercapta1);
+printf("Superpoder da carta: %.2f\n", superpoder1);
 
 printf("\n"); 
 // Área para entrada de dados da carta 2
@@ -76,6 +80,7 @@ printf("\n");
 
 densidade2 = populacao2 / area2; // Calculo da densidade populacional
 pibpercapta2 = pib2 / populacao2; // Calculo do PIB per capta
+superpoder2 = area2 + pib2 + (float)populacao2 + (float)pontos2 + (float)(1 / densidade2); // Cálculo do superpoder da carta 2
 
 // Área destinada a exibição dos dados da carta 2
 printf("\n");
@@ -89,6 +94,11 @@ printf("PIB da cidade: %.2f Bilhões de Reais\n", pib2);
 printf("Número de pontos turísticos: %d\n", pontos2);
 printf("Densidade Populacional: %.2f hab/km2\n", densidade1);
 printf("PIB per Capta: %.2f Reais\n", pibpercapta1);
+printf("Superpoder da carta: %.2f\n", superpoder2);
+
+
+
+
 
 
 return 0;
