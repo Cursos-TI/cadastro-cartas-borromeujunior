@@ -97,8 +97,18 @@ printf("Densidade Populacional: %.2f hab/km2\n", densidade1);
 printf("PIB per Capta: %.2f Reais\n", pibpercapta1);
 printf("Superpoder da carta: %.2f\n", superpoder2);
 
+printf("\n");
 
+printf("Comparação das cartas (Atributo: Nro de Pontos Turísticos\n");
 
+printf("\n");
+
+if (pontos1 > pontos2) {
+    printf("A Carta 1 foi a vencedora!\n");
+} else {
+    printf("A carta 2 foi a vencedora!\n");
+}
+printf("\n");
 
 
 
